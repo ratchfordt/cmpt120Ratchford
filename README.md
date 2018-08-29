@@ -1,2 +1,4 @@
 # cmpt120Ratchford
-Lab work for intro to programming
+Introduction to Programming - Lab Activities
+============================================
+This repository contains all lab work
