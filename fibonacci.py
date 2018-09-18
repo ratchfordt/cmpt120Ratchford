@@ -3,8 +3,8 @@
 
 
 def main():
-    print("(Positive numbers only please)")
-    n = eval(input("Input a number to pull from the Fibonacci sequence: "))
+    print("Fibonacci Calculator (Positive numbers only please)")
+    n = eval(input("Input a number to calculate using the Fibonacci sequence: "))
     ans = fibonacci(n)
     print(ans)
 
