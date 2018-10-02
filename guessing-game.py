@@ -10,7 +10,12 @@ def main():
         if guess == animal:
             print("Yes! Good job")
             wrong = False
-        elif guess == "q":
+            like = input("Do you like ", animal, "s?").lower()
+            if like[0] == "y":
+                print("Me too!")
+            if like[0] == "n":
+                print("Shame on you.")
+        elif guess[0] == "q":
             break
         else:
             print("Nope. Try again. ")
